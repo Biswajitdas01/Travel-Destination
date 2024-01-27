@@ -186,4 +186,39 @@ left: 150px;
 top:  155px;
 
 }
+/* footer */
+.footer-container{
+    width: auto;
+    height: 350px
+   
+    
+}
+.logo-container{
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+}
+.logo-container img{
+    width: 30px;
+    height: 34px;
+    
+}
+.logo-container h3{
+    font-size: 21.543px;
+   
+}
+
+.footer-content p{
+    width: 287px;
+    font-size: 14px;
+}
+.social-media{
+    width: 174.322px;
+height: 24px;
+padding: 20px;
+}
+.social-media img{
+    width: 19.888px;
+    height: 15.999px;
+}
 }
