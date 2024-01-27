@@ -12,6 +12,13 @@ body {
     color: #FF5400;
 }
 
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
 /* nav section */
 
 .nav-container {
@@ -100,20 +107,191 @@ a {
     gap: 24px;
 
 }
-.input-item{
-    width: 174px;
-height: 52px;
-border-radius: 8px;
-color: rgba(19, 19, 24, 0.50);
 
-text-align: center;
+.input-item {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+
+    text-align: center;
 }
-.input-btn{
+
+.input-btn {
     width: 174px;
     height: 52px;
     border-radius: 8px;
     text-align: center;
-   background-color: #FF5400;
-   color:#FFF ;
+    background-color: #FF5400;
+    color: #FFF;
 
+}
+
+/* popular tour section */
+
+.popular-tour-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.popular-content {
+    width: 530px;
+    gap: 20px;
+}
+
+.popular-content h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-content li {
+    padding-top: 20px;
+}
+
+.popular-img {
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+/* why choose us section */
+
+.why-choose-content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.why-choose-conten h3 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.why-choose-conten p {
+    width: 400px;
+    height: 50px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+}
+
+.three-container {
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.first-box {
+    width: 500px;
+    height: 250px;
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-right: 15px;
+    padding-left: 32px;
+    padding-top: 40px;
+
+}
+
+.second-box {
+    width: 500px;
+    height: 250px;
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    margin-left: 15px;
+    padding-left: 32px;
+    padding-top: 40px;
+
+}
+
+.third-box {
+    width: 500px;
+    height: 250px;
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: auto;
+    margin-top: 30px;
+    padding-left: 32px;
+    padding-top: 40px;
+
+}
+
+.three-container p .third-box>p {
+    width: 375px;
+
+    color: #5A5A5D;
+}
+
+.three-container h4,
+.third-box>h4 {
+    color: #131318;
+
+    font-size: 24px;
+    font-weight: 800;
+}
+
+/* perfect-place */
+.perfect-place-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.perfect-place-img {
+    background-image: url('/Images/Group\ 40089.png'), linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+
+
+}
+
+.perfect-place-content h3 {
+    width: 448px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.perfect-place-content p {
+    width: 532px;
+    color: #5A5A5D;
+}
+.perfect-place-content li{
+    width: 518px;
+    height: 65px;
+color: #131318;
+font-size: 16px;
+font-weight: 700;
+
+}
+.perfect-place-content .btn-primary {
+    color: #FFF;
+font-size: 20px;
+font-weight: 800;
+}
+.perfect-place-img {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perfect-place-img h4{
+    width: 276px;
+color: #FFF;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
 }
