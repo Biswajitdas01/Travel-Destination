@@ -124,11 +124,13 @@
         flex-direction: column;
         margin: auto;
         text-align: center;
+        margin: auto;
 
     }
 
     .perfect-place-content {
         width: 375px;
+        margin: auto;
     }
 
     .perfect-place-content h3 {
@@ -153,5 +155,35 @@
         width: 375px;
         height: 200px;
         margin-top: 20px;
+        margin: auto;
     }
+    /* save up section */
+    .save-up-container{
+        flex-direction: column;
+        margin: auto;
+    }
+.subscribe-section{
+    width: 375px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.save-up-image {
+    width: 400px;
+height: 300px;
+margin: auto;
+margin-bottom: 50px;
+}
+.save-up-inside h5{
+    font-size: 15px;
+   
+    }
+.save-up-inside{
+    width: 214.023px;
+    height: 79.268px;
+left: 150px;
+top:  155px;
+
+}
 }
